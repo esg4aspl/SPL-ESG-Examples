@@ -2,7 +2,7 @@
 This directory contains ESG examples of **Online Shop** SPL. The Feature Model given below for Online shop is obtained from [[1]](https://arxiv.org/abs/1303.1011).
 
 <p align="center">
-<img src="OnlineShop/images/OnlineShop_FeatureModel.PNG" width="640"/> 
+<img src="images/OnlineShop_FeatureModel.PNG" width="640"/> 
 </p>
 
 In this directory there are three examples of ESGs: 
