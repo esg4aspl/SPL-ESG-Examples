@@ -1,4 +1,4 @@
-# Smarrt Home SPL ESG Example
+# Smart Home SPL ESG Example
 This directory contains ESG examples of **Smart Home** SPL. The Feature Model for Smart Home is giveb below.
 
 ![](/SmartHome/images/SmartHome_SPL_FeatureModel.png) 
