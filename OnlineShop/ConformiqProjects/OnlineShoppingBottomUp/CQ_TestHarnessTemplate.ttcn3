@@ -1,0 +1,788 @@
+/* -*- ttcn-3 -*- */
+
+/**
+* @file
+*    C:\Users\ekincan\conformiq\OnlineShoppingBottomUp\CQ_TestHarnessTemplate.ttcn3
+* @author
+*    Conformiq TTCN-3 scripting backend
+* @version
+*    Sat Oct 24 18:03:57 CDT 2020
+* @desc
+*    This is a template file with TTCN-3 function stubs for the implementation 
+*    of test harness code for the test suites generated from the Conformiq '
+*    OnlineShoppingBottomUp' project.
+* @remark
+*    All function definitions must be edited as instructed in their comments in
+*     order for the test suite to execute properly.
+*/
+module CQ_TestHarnessTemplate
+{
+    import from CQ_Types all;
+    import from CQ_TestSystem all;
+
+        
+    /**
+    * @desc
+    *    This function sets up the test configuration, maps all mtc
+    *    to system component ports, and configures (if needed)
+    *    TTCN-3 harness and test system adapter
+    */
+    function f_cq_start_test_case() runs on CQ_MTC
+    {
+        // Specify here map operations between MTC and abstract test
+        // system interface or update and uncomment generated code below
+        // map(CQ_MTC: listProducts, system: <some port>);
+        // map(CQ_MTC: showSummary, system: <some port>);
+        // map(CQ_MTC: ReturnToSearchResults, system: <some port>);
+        // map(CQ_MTC: SelectECoins, system: <some port>);
+        // map(CQ_MTC: ProceedToCheckout, system: <some port>);
+        // map(CQ_MTC: showProductDetails, system: <some port>);
+        // map(CQ_MTC: Invalid, system: <some port>);
+        // map(CQ_MTC: ProductDetailsFor, system: <some port>);
+        // map(CQ_MTC: AddProductToCart, system: <some port>);
+        // map(CQ_MTC: SelectCreditCard, system: <some port>);
+        // map(CQ_MTC: SelectBankAccount, system: <some port>);
+        // map(CQ_MTC: validate, system: <some port>);
+        // map(CQ_MTC: OpenProductCatalog, system: <some port>);
+        // map(CQ_MTC: CancelPayment, system: <some port>);
+        // map(CQ_MTC: RemoveProduct, system: <some port>);
+        // map(CQ_MTC: ToCart, system: <some port>);
+        // map(CQ_MTC: ReturnToCatalog, system: <some port>);
+        // map(CQ_MTC: listProductsFor, system: <some port>);
+        // map(CQ_MTC: SearchFor, system: <some port>);
+        // map(CQ_MTC: ProceedPayment, system: <some port>);
+        // map(CQ_MTC: SelectPaymentMethod, system: <some port>);
+        // map(CQ_MTC: Valid, system: <some port>);
+        // map(CQ_MTC: processOrderAndConfirm, system: <some port>);
+        // map(CQ_MTC: showCartContent, system: <some port>);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_start_test_case(): function is not implemented");
+    }
+    /**
+    * @desc
+    *    This function tears down the test configuration
+    *    and unmaps all mtc to system component ports
+    */
+    function  f_cq_end_test_case() runs on CQ_MTC
+    {
+        //Specify here unmap operations between MTC and abstract test
+        // system interface or update and uncomment generated code below
+        // unmap(CQ_MTC: listProducts, system: <some port>);
+        // unmap(CQ_MTC: showSummary, system: <some port>);
+        // unmap(CQ_MTC: ReturnToSearchResults, system: <some port>);
+        // unmap(CQ_MTC: SelectECoins, system: <some port>);
+        // unmap(CQ_MTC: ProceedToCheckout, system: <some port>);
+        // unmap(CQ_MTC: showProductDetails, system: <some port>);
+        // unmap(CQ_MTC: Invalid, system: <some port>);
+        // unmap(CQ_MTC: ProductDetailsFor, system: <some port>);
+        // unmap(CQ_MTC: AddProductToCart, system: <some port>);
+        // unmap(CQ_MTC: SelectCreditCard, system: <some port>);
+        // unmap(CQ_MTC: SelectBankAccount, system: <some port>);
+        // unmap(CQ_MTC: validate, system: <some port>);
+        // unmap(CQ_MTC: OpenProductCatalog, system: <some port>);
+        // unmap(CQ_MTC: CancelPayment, system: <some port>);
+        // unmap(CQ_MTC: RemoveProduct, system: <some port>);
+        // unmap(CQ_MTC: ToCart, system: <some port>);
+        // unmap(CQ_MTC: ReturnToCatalog, system: <some port>);
+        // unmap(CQ_MTC: listProductsFor, system: <some port>);
+        // unmap(CQ_MTC: SearchFor, system: <some port>);
+        // unmap(CQ_MTC: ProceedPayment, system: <some port>);
+        // unmap(CQ_MTC: SelectPaymentMethod, system: <some port>);
+        // unmap(CQ_MTC: Valid, system: <some port>);
+        // unmap(CQ_MTC: processOrderAndConfirm, system: <some port>);
+        // unmap(CQ_MTC: showCartContent, system: <some port>);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_end_test_case(): function is not implemented");
+    }
+    
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_listProducts(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds tolistProductsmodel port
+        // listProducts.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_listProducts: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_showSummary(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds toshowSummarymodel port
+        // showSummary.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_showSummary: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ReturnToSearchResults(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ReturnToSearchResults model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ReturnToSearchResults.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ReturnToSearchResults: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ReturnToSearchResults: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_SelectECoins(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the SelectECoins model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // SelectECoins.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_SelectECoins: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_SelectECoins: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ProceedToCheckout(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ProceedToCheckout model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ProceedToCheckout.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ProceedToCheckout: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ProceedToCheckout: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_showProductDetails(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds toshowProductDetailsmodel port
+        // showProductDetails.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_showProductDetails: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_Invalid(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the Invalid model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // Invalid.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_Invalid: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_Invalid: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ProductDetailsFor(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ProductDetailsFor model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ProductDetailsFor.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ProductDetailsFor: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ProductDetailsFor: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_AddProductToCart(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the AddProductToCart model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // AddProductToCart.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_AddProductToCart: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_AddProductToCart: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_SelectCreditCard(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the SelectCreditCard model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // SelectCreditCard.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_SelectCreditCard: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_SelectCreditCard: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_SelectBankAccount(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the SelectBankAccount model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // SelectBankAccount.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_SelectBankAccount: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_SelectBankAccount: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_validate(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds tovalidatemodel port
+        // validate.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_validate: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_OpenProductCatalog(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the OpenProductCatalog model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // OpenProductCatalog.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_OpenProductCatalog: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_OpenProductCatalog: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_CancelPayment(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the CancelPayment model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // CancelPayment.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_CancelPayment: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_CancelPayment: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_RemoveProduct(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the RemoveProduct model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // RemoveProduct.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_RemoveProduct: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_RemoveProduct: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ToCart(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ToCart model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ToCart.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ToCart: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ToCart: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ReturnToCatalog(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ReturnToCatalog model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ReturnToCatalog.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ReturnToCatalog: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ReturnToCatalog: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_listProductsFor(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds tolistProductsFormodel port
+        // listProductsFor.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_listProductsFor: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_SearchFor(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the SearchFor model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // SearchFor.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_SearchFor: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_SearchFor: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_ProceedPayment(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the ProceedPayment model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // ProceedPayment.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_ProceedPayment: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_ProceedPayment: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_SelectPaymentMethod(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the SelectPaymentMethod model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // SelectPaymentMethod.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_SelectPaymentMethod: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_SelectPaymentMethod: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_Valid(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the Valid model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // Valid.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_Valid: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_Valid: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_processOrderAndConfirm(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds toprocessOrderAndConfirmmodel port
+        // processOrderAndConfirm.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_processOrderAndConfirm: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_showCartContent(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds toshowCartContentmodel port
+        // showCartContent.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_showCartContent: function is not implemented)");
+    }
+}

@@ -1,0 +1,104 @@
+/* -*- ttcn-3 -*- */
+
+/**
+* @file
+*    C:\Users\ekincan\conformiq\OnlineShoppingBottomUp\CQ_TestHarnessTemplate.ttcn3
+* @author
+*    Conformiq TTCN-3 scripting backend
+* @version
+*    Sat Oct 24 18:03:57 CDT 2020
+* @desc
+*    This is a file with TTCN-3 default altstep implementation
+*    generated from the Conformiq '
+*    OnlineShoppingBottomUp' project.
+*/
+module CQ_Defaults
+{
+    import from CQ_Types all;
+    import from CQ_TestHarnessTemplate all;
+    import from CQ_TestSystem{ type CQ_MTC};
+
+    /**
+    * @desc
+    *    This altstep handles terminating after waiting up to
+    *    the maximum response time and receiving any other
+    *    than the expected message with setting a fail 
+    *    verdict and stopping the test
+    */
+    altstep a_cq_default() runs on CQ_MTC
+    {
+        [] listProducts.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'listProducts'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] showSummary.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'showSummary'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] showProductDetails.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'showProductDetails'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] validate.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'validate'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] listProductsFor.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'listProductsFor'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] processOrderAndConfirm.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'processOrderAndConfirm'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] showCartContent.receive(MyMessage:?)
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message of type 'MyMessage' via port 'showCartContent'.");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] any port.receive
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after receiving unexpected message in default: a_cq_default()!");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+        [] t_cq_timer.timeout
+        {
+            log("CQ_DEBUG: a_cq_default(): FAIL: Stopping test case after time out of timer: t_cq_timer!");
+            t_cq_timer.stop;
+            setverdict(fail);
+            f_cq_end_test_case();
+            stop;
+        }
+
+    }
+}

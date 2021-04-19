@@ -1,0 +1,7 @@
+# Edit the following line to point to your Cucumber installation!
+$:.unshift('~/.rvm/gems/ruby-head/gems/cucumber-1.3.5/lib/')
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new do |t|
+  t.cucumber_opts = %w{--format pretty}
+end

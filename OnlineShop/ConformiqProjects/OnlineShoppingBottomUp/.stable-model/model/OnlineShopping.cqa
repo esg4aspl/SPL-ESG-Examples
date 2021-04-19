@@ -1,0 +1,10 @@
+
+/** Declaration of the 'OnlineShopping' state machine.
+
+    This state machine has its own execution thread and it supports
+    communication with other state machines via ports. */
+class OnlineShopping extends StateMachine
+{
+    /** The default constructor. */
+    public OnlineShopping() { }
+}
