@@ -1,0 +1,42 @@
+
+/** Declaration of the external interface of the system being modeled. This is
+    specific to system modeling; a similar construct does not appear usually in
+    programming languages. In this "system block", we initially declare one inbound
+    interface (in) and one outbound interface (out). The identifiers 'in' and
+    'out' are the names for the interfaces in the model. After the colon we
+    list the types of records that can possibly go through the interface in
+    question. */
+system
+{
+    Inbound OpenProductCatalog   : MyMessage;
+	Inbound SearchFor   : MyMessage;
+	Inbound ReturnToCatalog   : MyMessage;
+	Inbound CancelPayment   : MyMessage;
+	Inbound ToCart   : MyMessage;
+	Inbound ProceedToCheckout   : MyMessage;
+	Inbound SelectPaymentMethod   : MyMessage;
+	Inbound SelectBankAccount   : MyMessage;
+	Inbound SelectECoins   : MyMessage;
+	Inbound SelectCreditCard   : MyMessage;
+	Inbound ProductDetailsFor   : MyMessage;
+	Inbound ReturnToSearchResults   : MyMessage;
+	Inbound AddProductToCart   : MyMessage;
+	Inbound ProceedPayment   : MyMessage;
+	Inbound Invalid   : MyMessage;
+	Inbound Valid   : MyMessage;
+	Inbound RemoveProduct: MyMessage;
+
+
+    Outbound listProducts : MyMessage;
+	Outbound processOrderAndConfirm : MyMessage;
+	Outbound showCartContent : MyMessage;
+	Outbound listProductsFor : MyMessage;
+	Outbound showProductDetails : MyMessage;
+	Outbound showSummary : MyMessage;
+	Outbound validate : MyMessage;
+}
+
+/** Declaration of a message type, which is technically presented as a "record
+    type". It is a record of pure data. This record type 'MyMessage' is empty,
+    i.e. it does not contain any actual data fields. */
+record MyMessage { }

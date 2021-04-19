@@ -1,0 +1,1083 @@
+/* -*- ttcn-3 -*- */
+
+/**
+* @file
+*    C:\Users\ekincan\conformiq\OnlineShoppingTopDown-Part2\CQ_TestSuite.ttcn3
+* @author
+*    Conformiq TTCN-3 scripting backend
+* @version
+*    Wed Oct 21 14:32:47 CDT 2020
+* @desc
+*    This file contains all test cases generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+*    with 'DC' design configuration.
+* @remark
+*    WARNING! This file has been automatically generated using the
+*    Conformiq TTCN-3 scripting backend. DO NOT EDIT.
+*/
+module CQ_TestSuite
+{
+    import from CQ_Defaults all;
+    import from CQ_TestSystem all;
+    import from CQ_Types all;
+    import from CQ_TestHarnessTemplate all;
+
+    modulepar float mp_max_response_time := 10.0;
+
+    /***** Logging verbosity flags *****/
+    /**
+    * @desc
+    *    When this module parameter value is set to true all usecases
+    *    targeted in each test case will be logged.
+    *    The default value of this module parameter is true.
+    */
+    modulepar boolean mp_log_targeted_usecases := true;
+    /**
+    * @desc
+    *    When this module parameter value is set to true all requirements
+    *    targeted in each test case will be logged.
+    *    The default value of this module parameter is true.
+    */
+    modulepar boolean mp_log_targeted_requirements := true;
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Order_to_Start' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Order_to_Start()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Order_to_Start'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Order_to_Start: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate1);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Order_to_Start: Step 2");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate2);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Order_to_Start: Step 3");
+        f_cq_send_MyMessage_to_CancelPayment(m_MyMessageTemplate3);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Order_to_Start");
+    }
+    /***** Template definitions generated for tc_Move_from_Order_to_Start*****/
+    template MyMessage m_MyMessageTemplate1 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate2 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate3 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Search_to_Order' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Search_to_Order()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Search_to_Order'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Order: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate4);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Order: Step 2");
+        f_cq_send_MyMessage_to_SearchFor(m_MyMessageTemplate5);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Order: Step 3");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate6);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Search_to_Order");
+    }
+    /***** Template definitions generated for tc_Move_from_Search_to_Order*****/
+    template MyMessage m_MyMessageTemplate4 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate5 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate6 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_ProductDetails_to_Order' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_ProductDetails_to_Order()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_ProductDetails_to_Order'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Order: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate7);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Order: Step 2");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate8);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Order: Step 3");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate9);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_ProductDetails_to_Order");
+    }
+    /***** Template definitions generated for tc_Move_from_ProductDetails_to_Order*****/
+    template MyMessage m_MyMessageTemplate7 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate8 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate9 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_ProductDetails_to_ProductDetails' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_ProductDetails_to_ProductDetails()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_ProductDetails_to_ProductDetails'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_ProductDetails: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate10);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_ProductDetails: Step 2");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate11);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_ProductDetails: Step 3");
+        f_cq_send_MyMessage_to_AddProductToCart(m_MyMessageTemplate12);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_ProductDetails_to_ProductDetails");
+    }
+    /***** Template definitions generated for tc_Move_from_ProductDetails_to_ProductDetails*****/
+    template MyMessage m_MyMessageTemplate10 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate11 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate12 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_CartContent_to_CartContent' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_CartContent_to_CartContent()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_CartContent_to_CartContent'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_CartContent: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate13);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_CartContent: Step 2");
+        f_cq_send_MyMessage_to_ToCart(m_MyMessageTemplate14);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_CartContent: Step 3");
+        f_cq_send_MyMessage_to_RemoveProduct(m_MyMessageTemplate15);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_CartContent_to_CartContent");
+    }
+    /***** Template definitions generated for tc_Move_from_CartContent_to_CartContent*****/
+    template MyMessage m_MyMessageTemplate13 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate14 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate15 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_CartContent_to_Order' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_CartContent_to_Order()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_CartContent_to_Order'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_Order: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate16);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_Order: Step 2");
+        f_cq_send_MyMessage_to_ToCart(m_MyMessageTemplate17);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_CartContent_to_Order: Step 3");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate18);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_CartContent_to_Order");
+    }
+    /***** Template definitions generated for tc_Move_from_CartContent_to_Order*****/
+    template MyMessage m_MyMessageTemplate16 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate17 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate18 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Search_to_CartContent' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Search_to_CartContent()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Search_to_CartContent'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_CartContent: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate19);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_CartContent: Step 2");
+        f_cq_send_MyMessage_to_SearchFor(m_MyMessageTemplate20);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_CartContent: Step 3");
+        f_cq_send_MyMessage_to_ToCart(m_MyMessageTemplate21);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Search_to_CartContent");
+    }
+    /***** Template definitions generated for tc_Move_from_Search_to_CartContent*****/
+    template MyMessage m_MyMessageTemplate19 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate20 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate21 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Search_to_ProductDetails' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Search_to_ProductDetails()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Search_to_ProductDetails'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_ProductDetails: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate22);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_ProductDetails: Step 2");
+        f_cq_send_MyMessage_to_SearchFor(m_MyMessageTemplate23);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_ProductDetails: Step 3");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate24);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Search_to_ProductDetails");
+    }
+    /***** Template definitions generated for tc_Move_from_Search_to_ProductDetails*****/
+    template MyMessage m_MyMessageTemplate22 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate23 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate24 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Search_to_Catalog' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Search_to_Catalog()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Search_to_Catalog'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Catalog: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate25);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Catalog: Step 2");
+        f_cq_send_MyMessage_to_SearchFor(m_MyMessageTemplate26);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Search_to_Catalog: Step 3");
+        f_cq_send_MyMessage_to_ReturnToCatalog(m_MyMessageTemplate27);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Search_to_Catalog");
+    }
+    /***** Template definitions generated for tc_Move_from_Search_to_Catalog*****/
+    template MyMessage m_MyMessageTemplate25 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate26 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate27 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_ProductDetails_to_CartContent' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_ProductDetails_to_CartContent()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_ProductDetails_to_CartContent'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_CartContent: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate28);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_CartContent: Step 2");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate29);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_CartContent: Step 3");
+        f_cq_send_MyMessage_to_ToCart(m_MyMessageTemplate30);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_ProductDetails_to_CartContent");
+    }
+    /***** Template definitions generated for tc_Move_from_ProductDetails_to_CartContent*****/
+    template MyMessage m_MyMessageTemplate28 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate29 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate30 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_ProductDetails_to_Search' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_ProductDetails_to_Search()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_ProductDetails_to_Search'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Search: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate31);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Search: Step 2");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate32);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Search: Step 3");
+        f_cq_send_MyMessage_to_ReturnToSearchResults(m_MyMessageTemplate33);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_ProductDetails_to_Search");
+    }
+    /***** Template definitions generated for tc_Move_from_ProductDetails_to_Search*****/
+    template MyMessage m_MyMessageTemplate31 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate32 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate33 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_ProductDetails_to_Catalog' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_ProductDetails_to_Catalog()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_ProductDetails_to_Catalog'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Catalog: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate34);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Catalog: Step 2");
+        f_cq_send_MyMessage_to_ProductDetailsFor(m_MyMessageTemplate35);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_ProductDetails_to_Catalog: Step 3");
+        f_cq_send_MyMessage_to_ReturnToCatalog(m_MyMessageTemplate36);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_ProductDetails_to_Catalog");
+    }
+    /***** Template definitions generated for tc_Move_from_ProductDetails_to_Catalog*****/
+    template MyMessage m_MyMessageTemplate34 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate35 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate36 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_State_ECoins' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_State_ECoins()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_State_ECoins'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_State_ECoins: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate37);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_State_ECoins: Step 2");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate38);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_State_ECoins: Step 3");
+        f_cq_send_MyMessage_to_SelectPaymentMethod(m_MyMessageTemplate39);
+    
+    
+        /***** Step 4; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_State_ECoins: Step 4");
+        f_cq_send_MyMessage_to_SelectECoins(m_MyMessageTemplate40);
+    
+    
+        /***** Step 5; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_State_ECoins: Step 5");
+        f_cq_send_MyMessage_to_ProceedPayment(m_MyMessageTemplate41);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_State_ECoins");
+    }
+    /***** Template definitions generated for tc_State_ECoins*****/
+    template MyMessage m_MyMessageTemplate37 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate38 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate39 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate40 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate41 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Validation_to_final_state' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Validation_to_final_state()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Validation_to_final_state'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate42);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 2");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate43);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 3");
+        f_cq_send_MyMessage_to_SelectPaymentMethod(m_MyMessageTemplate44);
+    
+    
+        /***** Step 4; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 4");
+        f_cq_send_MyMessage_to_SelectBankAccount(m_MyMessageTemplate45);
+    
+    
+        /***** Step 5; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 5");
+        f_cq_send_MyMessage_to_ProceedPayment(m_MyMessageTemplate46);
+    
+    
+        /***** Step 6; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_final_state: Step 6");
+        f_cq_send_MyMessage_to_Valid(m_MyMessageTemplate47);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Validation_to_final_state");
+    }
+    /***** Template definitions generated for tc_Move_from_Validation_to_final_state*****/
+    template MyMessage m_MyMessageTemplate42 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate43 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate44 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate45 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate46 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate47 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    Test case 'tc_Move_from_Validation_to_Order' generated from the Conformiq 'OnlineShoppingTopDown-Part2' project
+    */
+    testcase tc_Move_from_Validation_to_Order()
+    runs on CQ_MTC system CQ_TestHarnessSystem
+    {
+        log("CQ_DEBUG: Starting execution of test case: 'tc_Move_from_Validation_to_Order'");
+        var float v_last_wait_timeout := 0.0;
+        var default v_cq_default;
+    
+        /***** set up test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_start_test_case();
+        // default handles waiting beyond maximum response time and reception of any
+        // other than the expected message with setting a fail verdict and stopping the test
+        v_cq_default := activate(a_cq_default());
+    
+    
+        /***** Step 1; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 1");
+        f_cq_send_MyMessage_to_OpenProductCatalog(m_MyMessageTemplate48);
+    
+    
+        /***** Step 2; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 2");
+        f_cq_send_MyMessage_to_ProceedToCheckout(m_MyMessageTemplate49);
+    
+    
+        /***** Step 3; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 3");
+        f_cq_send_MyMessage_to_SelectPaymentMethod(m_MyMessageTemplate50);
+    
+    
+        /***** Step 4; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 4");
+        f_cq_send_MyMessage_to_SelectBankAccount(m_MyMessageTemplate51);
+    
+    
+        /***** Step 5; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 5");
+        f_cq_send_MyMessage_to_ProceedPayment(m_MyMessageTemplate52);
+    
+    
+        /***** Step 6; t = 0.0 *****/
+    
+        log("CQ_DEBUG: tc_Move_from_Validation_to_Order: Step 6");
+        f_cq_send_MyMessage_to_Invalid(m_MyMessageTemplate53);
+    
+        setverdict(pass);
+        deactivate(v_cq_default);
+    
+        /***** tear down test configuration, TTCN-3 harness, and adapter *****/
+        f_cq_end_test_case();
+    
+        log("CQ_DEBUG: Ending execution of tc_Move_from_Validation_to_Order");
+    }
+    /***** Template definitions generated for tc_Move_from_Validation_to_Order*****/
+    template MyMessage m_MyMessageTemplate48 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate49 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate50 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate51 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate52 :=
+    {
+        
+    }
+
+    template MyMessage m_MyMessageTemplate53 :=
+    {
+        
+    }
+
+    /**
+    * @desc
+    *    This function blocks the execution for the specified time
+    * @param
+    *    p_duration The specified time in seconds
+    */
+    function f_cq_sleep(float p_duration)
+    {
+        timer t;
+        t.start(p_duration);
+        alt
+        {
+            [] t.timeout {};
+            [else] {repeat;} // this statement disables active defaults
+        }
+
+    }
+
+    type enumerated target_type
+    {
+        e_usecase,
+        e_requirement
+
+    }
+
+    /**
+    * @desc
+    *    This function logs target description if the module parameter
+    *    related to the target type is set to true.
+    *    Module parameters and target type dependencies are as follows:
+    *        mp_log_targeted_usecases controls logging of targets type e_usecase
+    *        mp_log_targeted_requirements controls logging of targets type e_requirement
+    * @param
+    *    p_description The textual target description to be logged
+    * @param 
+    *    p_target_type The type of target covered by a test
+    */
+    function f_cq_log_target (charstring p_description, target_type p_target_type) runs on CQ_MTC
+    {
+        if ((p_target_type == e_usecase) and mp_log_targeted_usecases)
+        {
+            log("CQ_INFO: " & p_description);
+        }
+        else
+        if ((p_target_type == e_requirement) and mp_log_targeted_requirements)
+        {
+            log("CQ_INFO: " & p_description);
+        }
+    }
+    control
+    {
+        execute(tc_Move_from_Order_to_Start());
+        execute(tc_Move_from_Search_to_Order());
+        execute(tc_Move_from_ProductDetails_to_Order());
+        execute(tc_Move_from_ProductDetails_to_ProductDetails());
+        execute(tc_Move_from_CartContent_to_CartContent());
+        execute(tc_Move_from_CartContent_to_Order());
+        execute(tc_Move_from_Search_to_CartContent());
+        execute(tc_Move_from_Search_to_ProductDetails());
+        execute(tc_Move_from_Search_to_Catalog());
+        execute(tc_Move_from_ProductDetails_to_CartContent());
+        execute(tc_Move_from_ProductDetails_to_Search());
+        execute(tc_Move_from_ProductDetails_to_Catalog());
+        execute(tc_State_ECoins());
+        execute(tc_Move_from_Validation_to_final_state());
+        execute(tc_Move_from_Validation_to_Order());
+    }
+
+}

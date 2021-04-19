@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Script ns1:Name="DC" xmlns:ns1="http://www.conformiq.com/xsd/XMLScripter2.xsd">
+    <ns1:Dependencies/>
+    <ns1:Configuration>
+        <ns1:Property ns1:Name="Automatic Test Case Naming" ns1:CreatorValue="true"/>
+        <ns1:Property ns1:Name="Conformiq version" ns1:CreatorValue="5.0.0.82500"/>
+        <ns1:Property ns1:Name="Customizations.Dump Conformiq Designer configuration" ns1:CreatorValue="true"/>
+        <ns1:Property ns1:Name="Customizations.Dump debug information" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Customizations.Highlight actions in code" ns1:CreatorValue="true"/>
+        <ns1:Property ns1:Name="Customizations.Reproducible" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Enable Model Profiling" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Enable perturbation support" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Lookahead Depth" ns1:CreatorValue="0"/>
+        <ns1:Property ns1:Name="Main.Generated XML file" ns1:CreatorValue="C:\Users\ekincan\conformiq\OnlineShoppingTopDown-Part2\xml\TestSuite.xml"/>
+        <ns1:Property ns1:Name="Main.Write output format XSD" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Maximum Communication Delay" ns1:CreatorValue="0"/>
+        <ns1:Property ns1:Name="OSI Methodology Support" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Only Finalized Runs" ns1:CreatorValue="disabled"/>
+        <ns1:Property ns1:Name="Perturbation support/Apply default data selection" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Perturbation support/Number of test variants" ns1:CreatorValue="0"/>
+        <ns1:Property ns1:Name="Perturbation support/Perturbation seed" ns1:CreatorValue="1009"/>
+        <ns1:Property ns1:Name="Postprocessing.Post process command" ns1:CreatorValue=""/>
+        <ns1:Property ns1:Name="Postprocessing.Use XSLT" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Postprocessing.XSLT stylesheet" ns1:CreatorValue=""/>
+        <ns1:Property ns1:Name="Project" ns1:CreatorValue="OnlineShoppingTopDown-Part2"/>
+        <ns1:Property ns1:Name="Project Path" ns1:CreatorValue="C:\Users\ekincan\conformiq\OnlineShoppingTopDown-Part2"/>
+        <ns1:Property ns1:Name="Require Conversion for Interoperability Testing" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Scripter Path" ns1:CreatorValue="C:\Program Files\Conformiq\Designer 5.0\Adaptation\XMLScripter2.jar"/>
+        <ns1:Property ns1:Name="Stop At Full Coverage" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Stop At Full Requirement Coverage" ns1:CreatorValue="false"/>
+        <ns1:Property ns1:Name="Test Case Name Format" ns1:CreatorValue="Test Case "/>
+        <ns1:Property ns1:Name="Test Case Numbering Offset" ns1:CreatorValue="0"/>
+        <ns1:Property ns1:Name="Test Case Selection" ns1:CreatorValue="FEWEST_TESTS"/>
+    </ns1:Configuration>
+    <ns1:TestCase ns1:Description="" ns1:Digest="8660e7434c6526c65f1088bd0a4e773a560dad51" ns1:Id="1" ns1:Name="Move from Order to Start" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Order" ns1:ShortName="Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Order" ns1:ShortName="Start -&gt; Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="CancelPayment" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Order -&gt; Start" ns1:ShortName="Order -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Order -&gt; Start" ns1:ShortName="Catalog -&gt; Order -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="c5ba446d157d5c0a51682dc5fa628df8a867b830" ns1:Id="2" ns1:Name="Move from Search to Order" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SearchFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Search" ns1:ShortName="Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Search" ns1:ShortName="Start -&gt; Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Search" ns1:ShortName="Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Search -&gt; Order" ns1:ShortName="Search -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Search -&gt; Order" ns1:ShortName="Catalog -&gt; Search -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="2c33e39d84dadd2c645bf892235c96dfa3b5738d" ns1:Id="3" ns1:Name="Move from ProductDetails to Order" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Start -&gt; Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ProductDetails -&gt; Order" ns1:ShortName="ProductDetails -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; ProductDetails -&gt; Order" ns1:ShortName="Catalog -&gt; ProductDetails -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="dc52679fbb269315e8ac3a773a7b56a3c4b324a1" ns1:Id="4" ns1:Name="Move from ProductDetails to ProductDetails" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Start -&gt; Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="AddProductToCart" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ProductDetails -&gt; ProductDetails" ns1:ShortName="ProductDetails -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; ProductDetails -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="7cddba3cb9e06436fb1d18d5c90547fe2aee07c7" ns1:Id="5" ns1:Name="Move from CartContent to CartContent" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ToCart" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; CartContent" ns1:ShortName="Catalog -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; CartContent" ns1:ShortName="Start -&gt; Catalog -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/CartContent" ns1:ShortName="CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="RemoveProduct" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/CartContent -&gt; CartContent" ns1:ShortName="CartContent -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; CartContent -&gt; CartContent" ns1:ShortName="Catalog -&gt; CartContent -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.CartContent -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:ShortName="In OnlineShopping.CartContent -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/CartContent" ns1:ShortName="CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="2ca62e5d76f7bfe245ecd03add0f8ef792c71e12" ns1:Id="6" ns1:Name="Move from CartContent to Order" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ToCart" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; CartContent" ns1:ShortName="Catalog -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; CartContent" ns1:ShortName="Start -&gt; Catalog -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/CartContent" ns1:ShortName="CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/CartContent -&gt; Order" ns1:ShortName="CartContent -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; CartContent -&gt; Order" ns1:ShortName="Catalog -&gt; CartContent -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.CartContent -&gt; OnlineShopping.Order:1 statement 'showSummary ;'" ns1:ShortName="In OnlineShopping.CartContent -&gt; OnlineShopping.Order:1 statement 'showSummary ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="740183a60a880e6adafd4885e5cbc419568b1cff" ns1:Id="7" ns1:Name="Move from Search to CartContent" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SearchFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Search" ns1:ShortName="Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Search" ns1:ShortName="Start -&gt; Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Search" ns1:ShortName="Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ToCart" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Search -&gt; CartContent" ns1:ShortName="Search -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Search -&gt; CartContent" ns1:ShortName="Catalog -&gt; Search -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Search -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:ShortName="In OnlineShopping.Search -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/CartContent" ns1:ShortName="CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="965922c5898c1d49b2f84bd644391a7d12bf88d1" ns1:Id="8" ns1:Name="Move from Search to ProductDetails" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SearchFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Search" ns1:ShortName="Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Search" ns1:ShortName="Start -&gt; Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Search" ns1:ShortName="Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Search -&gt; ProductDetails" ns1:ShortName="Search -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Search -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; Search -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Search -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Search -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="19ccf464836eb0db094f54684af76e6fc0026e6c" ns1:Id="9" ns1:Name="Move from Search to Catalog" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SearchFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Search" ns1:ShortName="Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Search" ns1:ShortName="Start -&gt; Catalog -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Search" ns1:ShortName="Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ReturnToCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Search -&gt; Catalog" ns1:ShortName="Search -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Search -&gt; Catalog" ns1:ShortName="Catalog -&gt; Search -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Search -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Search -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="4d22e0d949d4a84df85af1d877739eb87a2d9a4a" ns1:Id="10" ns1:Name="Move from ProductDetails to CartContent" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Start -&gt; Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ToCart" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ProductDetails -&gt; CartContent" ns1:ShortName="ProductDetails -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; ProductDetails -&gt; CartContent" ns1:ShortName="Catalog -&gt; ProductDetails -&gt; CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:ShortName="In OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/CartContent" ns1:ShortName="CartContent" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="d445701700c742c7421d535e2bf6f13a215f7647" ns1:Id="11" ns1:Name="Move from ProductDetails to Search" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Start -&gt; Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ReturnToSearchResults" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ProductDetails -&gt; Search" ns1:ShortName="ProductDetails -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; ProductDetails -&gt; Search" ns1:ShortName="Catalog -&gt; ProductDetails -&gt; Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.ProductDetails -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:ShortName="In OnlineShopping.ProductDetails -&gt; OnlineShopping.Search:1 statement 'listProductsFor ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Search" ns1:ShortName="Search" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="85cae7ae8f0f11a785c2dac03b99dbca4912c7bf" ns1:Id="12" ns1:Name="Move from ProductDetails to Catalog" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProductDetailsFor" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; ProductDetails" ns1:ShortName="Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Start -&gt; Catalog -&gt; ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:ShortName="In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ProductDetails" ns1:ShortName="ProductDetails" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ReturnToCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ProductDetails -&gt; Catalog" ns1:ShortName="ProductDetails -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; ProductDetails -&gt; Catalog" ns1:ShortName="Catalog -&gt; ProductDetails -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="e01b43908fde409fa912436221c777b683cf7927" ns1:Id="13" ns1:Name="State ECoins" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Order" ns1:ShortName="Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Order" ns1:ShortName="Start -&gt; Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectPaymentMethod" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Order -&gt; ChooseMethod" ns1:ShortName="Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Order -&gt; ChooseMethod" ns1:ShortName="Catalog -&gt; Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ChooseMethod" ns1:ShortName="ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectECoins" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ChooseMethod -&gt; ECoins" ns1:ShortName="ChooseMethod -&gt; ECoins" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Order -&gt; ChooseMethod -&gt; ECoins" ns1:ShortName="Order -&gt; ChooseMethod -&gt; ECoins" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ECoins" ns1:ShortName="ECoins" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedPayment" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ECoins -&gt; Validation" ns1:ShortName="ECoins -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ChooseMethod -&gt; ECoins -&gt; Validation" ns1:ShortName="ChooseMethod -&gt; ECoins -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Validation" ns1:ShortName="Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="c0ecb2cbd5698f395191b125e7bc91b6935deb6d" ns1:Id="14" ns1:Name="Move from Validation to final state" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Order" ns1:ShortName="Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Order" ns1:ShortName="Start -&gt; Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectPaymentMethod" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Order -&gt; ChooseMethod" ns1:ShortName="Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Order -&gt; ChooseMethod" ns1:ShortName="Catalog -&gt; Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ChooseMethod" ns1:ShortName="ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectBankAccount" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ChooseMethod -&gt; Banktransfer" ns1:ShortName="ChooseMethod -&gt; Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Order -&gt; ChooseMethod -&gt; Banktransfer" ns1:ShortName="Order -&gt; ChooseMethod -&gt; Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Banktransfer" ns1:ShortName="Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedPayment" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Banktransfer -&gt; Validation" ns1:ShortName="Banktransfer -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ChooseMethod -&gt; Banktransfer -&gt; Validation" ns1:ShortName="ChooseMethod -&gt; Banktransfer -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Validation" ns1:ShortName="Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="Valid" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Validation -&gt; final state" ns1:ShortName="Validation -&gt; final state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Banktransfer -&gt; Validation -&gt; final state" ns1:ShortName="Banktransfer -&gt; Validation -&gt; final state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/final state" ns1:ShortName="final state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:TestCase ns1:Description="" ns1:Digest="0e9ec10a7fdb356b3179aa1279f36611400538bb" ns1:Id="15" ns1:Name="Move from Validation to Order" ns1:Probability="0.0" ns1:Priority="1">
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/Global Scope/main()" ns1:ShortName="main()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:ShortName="In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Methods/OnlineShopping/OnlineShopping()" ns1:ShortName="OnlineShopping()" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:ShortName="In OnlineShopping.cqa:9 statement 'super ( ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:ShortName="In Main.cqa:7 statement 'mc . start ( &quot;OnlineShopping&quot; ) ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/initial state" ns1:ShortName="initial state" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/initial state -&gt; Start" ns1:ShortName="initial state -&gt; Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Start" ns1:ShortName="Start" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="OpenProductCatalog" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Start -&gt; Catalog" ns1:ShortName="Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/initial state -&gt; Start -&gt; Catalog" ns1:ShortName="initial state -&gt; Start -&gt; Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="Control Flow/Statements/In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:ShortName="In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Catalog" ns1:ShortName="Catalog" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedToCheckout" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Catalog -&gt; Order" ns1:ShortName="Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Start -&gt; Catalog -&gt; Order" ns1:ShortName="Start -&gt; Catalog -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectPaymentMethod" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Order -&gt; ChooseMethod" ns1:ShortName="Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Catalog -&gt; Order -&gt; ChooseMethod" ns1:ShortName="Catalog -&gt; Order -&gt; ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/ChooseMethod" ns1:ShortName="ChooseMethod" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="SelectBankAccount" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/ChooseMethod -&gt; Banktransfer" ns1:ShortName="ChooseMethod -&gt; Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Order -&gt; ChooseMethod -&gt; Banktransfer" ns1:ShortName="Order -&gt; ChooseMethod -&gt; Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Banktransfer" ns1:ShortName="Banktransfer" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="ProceedPayment" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Banktransfer -&gt; Validation" ns1:ShortName="Banktransfer -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ChooseMethod -&gt; Banktransfer -&gt; Validation" ns1:ShortName="ChooseMethod -&gt; Banktransfer -&gt; Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Validation" ns1:ShortName="Validation" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:ExternalMessage ns1:IsFromTester="true" ns1:Port="Invalid" ns1:Thread="OnlineShopping" ns1:Timestamp="0.000000000">
+            <ns1:QmlRecord ns1:Type="MyMessage"/>
+        </ns1:ExternalMessage>
+        <ns1:Checkpoint ns1:Name="State Chart/Transitions/OnlineShopping/Validation -&gt; Order" ns1:ShortName="Validation -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Banktransfer -&gt; Validation -&gt; Order" ns1:ShortName="Banktransfer -&gt; Validation -&gt; Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/States/OnlineShopping/Order" ns1:ShortName="Order" ns1:Status="Covered" ns1:Timestamp="0.000000000" ns1:Type="UsualType"/>
+    </ns1:TestCase>
+    <ns1:UncoveredCheckpoints>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/CartContent -&gt; CartContent -&gt; CartContent" ns1:ShortName="CartContent -&gt; CartContent -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/CartContent -&gt; CartContent -&gt; Order" ns1:ShortName="CartContent -&gt; CartContent -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/CartContent -&gt; Order -&gt; ChooseMethod" ns1:ShortName="CartContent -&gt; Order -&gt; ChooseMethod" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/CartContent -&gt; Order -&gt; Start" ns1:ShortName="CartContent -&gt; Order -&gt; Start" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ECoins -&gt; Validation -&gt; Order" ns1:ShortName="ECoins -&gt; Validation -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ECoins -&gt; Validation -&gt; final state" ns1:ShortName="ECoins -&gt; Validation -&gt; final state" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Order -&gt; Start -&gt; Catalog" ns1:ShortName="Order -&gt; Start -&gt; Catalog" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; CartContent -&gt; CartContent" ns1:ShortName="ProductDetails -&gt; CartContent -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; CartContent -&gt; Order" ns1:ShortName="ProductDetails -&gt; CartContent -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Catalog -&gt; CartContent" ns1:ShortName="ProductDetails -&gt; Catalog -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Catalog -&gt; Order" ns1:ShortName="ProductDetails -&gt; Catalog -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="ProductDetails -&gt; Catalog -&gt; ProductDetails" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Catalog -&gt; Search" ns1:ShortName="ProductDetails -&gt; Catalog -&gt; Search" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Order -&gt; ChooseMethod" ns1:ShortName="ProductDetails -&gt; Order -&gt; ChooseMethod" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Order -&gt; Start" ns1:ShortName="ProductDetails -&gt; Order -&gt; Start" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; ProductDetails -&gt; CartContent" ns1:ShortName="ProductDetails -&gt; ProductDetails -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; ProductDetails -&gt; Catalog" ns1:ShortName="ProductDetails -&gt; ProductDetails -&gt; Catalog" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; ProductDetails -&gt; Order" ns1:ShortName="ProductDetails -&gt; ProductDetails -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; ProductDetails -&gt; ProductDetails" ns1:ShortName="ProductDetails -&gt; ProductDetails -&gt; ProductDetails" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; ProductDetails -&gt; Search" ns1:ShortName="ProductDetails -&gt; ProductDetails -&gt; Search" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Search -&gt; CartContent" ns1:ShortName="ProductDetails -&gt; Search -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Search -&gt; Catalog" ns1:ShortName="ProductDetails -&gt; Search -&gt; Catalog" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Search -&gt; Order" ns1:ShortName="ProductDetails -&gt; Search -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/ProductDetails -&gt; Search -&gt; ProductDetails" ns1:ShortName="ProductDetails -&gt; Search -&gt; ProductDetails" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; CartContent -&gt; CartContent" ns1:ShortName="Search -&gt; CartContent -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; CartContent -&gt; Order" ns1:ShortName="Search -&gt; CartContent -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Catalog -&gt; CartContent" ns1:ShortName="Search -&gt; Catalog -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Catalog -&gt; Order" ns1:ShortName="Search -&gt; Catalog -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Catalog -&gt; ProductDetails" ns1:ShortName="Search -&gt; Catalog -&gt; ProductDetails" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Catalog -&gt; Search" ns1:ShortName="Search -&gt; Catalog -&gt; Search" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Order -&gt; ChooseMethod" ns1:ShortName="Search -&gt; Order -&gt; ChooseMethod" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; Order -&gt; Start" ns1:ShortName="Search -&gt; Order -&gt; Start" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; ProductDetails -&gt; CartContent" ns1:ShortName="Search -&gt; ProductDetails -&gt; CartContent" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; ProductDetails -&gt; Catalog" ns1:ShortName="Search -&gt; ProductDetails -&gt; Catalog" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; ProductDetails -&gt; Order" ns1:ShortName="Search -&gt; ProductDetails -&gt; Order" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; ProductDetails -&gt; ProductDetails" ns1:ShortName="Search -&gt; ProductDetails -&gt; ProductDetails" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Search -&gt; ProductDetails -&gt; Search" ns1:ShortName="Search -&gt; ProductDetails -&gt; Search" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Validation -&gt; Order -&gt; ChooseMethod" ns1:ShortName="Validation -&gt; Order -&gt; ChooseMethod" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+        <ns1:Checkpoint ns1:Name="State Chart/Transition Pairs/OnlineShopping/Validation -&gt; Order -&gt; Start" ns1:ShortName="Validation -&gt; Order -&gt; Start" ns1:Status="NotCovered" ns1:Type="UsualType"/>
+    </ns1:UncoveredCheckpoints>
+</ns1:Script>

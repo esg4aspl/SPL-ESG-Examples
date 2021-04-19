@@ -1,0 +1,8 @@
+
+/** Main entry point to the model i.e. the place where the system "starts". */
+void main()
+{
+    // Instantiate the 'OnlineShopping' and start execution of the state machine.
+    OnlineShopping mc = new OnlineShopping();
+    mc.start("OnlineShopping");
+}
