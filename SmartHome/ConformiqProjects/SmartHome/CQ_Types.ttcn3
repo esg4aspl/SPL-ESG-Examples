@@ -1,0 +1,23 @@
+/* -*- ttcn-3 -*- */
+
+/**
+* @file
+*    C:\Users\ekincan\conformiq\SmartHome\CQ_Types.ttcn3
+* @author
+*    Conformiq TTCN-3 scripting backend
+* @version
+*    Tue Apr 06 20:01:35 CDT 2021
+* @desc
+*    This file contains all data type definitions exported from the Conformiq SmartHome' project.
+*    with 'DC' design configuration.'
+* @remark
+*    WARNING! This file has been automatically generated using the
+*    Conformiq TTCN-3 scripting backend. DO NOT EDIT.
+*/
+module CQ_Types
+{
+    type record MyMessage
+    {
+        
+    }
+}

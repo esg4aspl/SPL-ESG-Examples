@@ -1,0 +1,10 @@
+
+/** Declaration of the 'SmartHome' state machine.
+
+    This state machine has its own execution thread and it supports
+    communication with other state machines via ports. */
+class SmartHome extends StateMachine
+{
+    /** The default constructor. */
+    public SmartHome() { }
+}

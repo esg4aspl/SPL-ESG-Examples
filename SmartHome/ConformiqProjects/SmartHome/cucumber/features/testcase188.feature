@@ -1,0 +1,10 @@
+Feature: Test case 188
+
+Scenario: Move from Siren On to Console; Console to Windows Opened [2]
+    Given system is in initial state
+    When I submit a request CQRecordMyMessage.new()
+    When I submit a request CQRecordMyMessage.new()
+    When I submit a request CQRecordMyMessage.new()
+    When I submit a request CQRecordMyMessage.new()
+    When I submit a request CQRecordMyMessage.new()
+

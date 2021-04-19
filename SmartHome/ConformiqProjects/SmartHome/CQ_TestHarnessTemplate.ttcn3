@@ -1,0 +1,1874 @@
+/* -*- ttcn-3 -*- */
+
+/**
+* @file
+*    C:\Users\ekincan\conformiq\SmartHome\CQ_TestHarnessTemplate.ttcn3
+* @author
+*    Conformiq TTCN-3 scripting backend
+* @version
+*    Fri Apr 02 16:41:41 CDT 2021
+* @desc
+*    This is a template file with TTCN-3 function stubs for the implementation 
+*    of test harness code for the test suites generated from the Conformiq '
+*    SmartHome' project.
+* @remark
+*    All function definitions must be edited as instructed in their comments in
+*     order for the test suite to execute properly.
+*/
+module CQ_TestHarnessTemplate
+{
+    import from CQ_Types all;
+    import from CQ_TestSystem all;
+
+        
+    /**
+    * @desc
+    *    This function sets up the test configuration, maps all mtc
+    *    to system component ports, and configures (if needed)
+    *    TTCN-3 harness and test system adapter
+    */
+    function f_cq_start_test_case() runs on CQ_MTC
+    {
+        // Specify here map operations between MTC and abstract test
+        // system interface or update and uncomment generated code below
+        // map(CQ_MTC: turnOffPerimeterLightAutomatic, system: <some port>);
+        // map(CQ_MTC: turnOnBellsManual, system: <some port>);
+        // map(CQ_MTC: callFireDepartment, system: <some port>);
+        // map(CQ_MTC: glassBreakSensorActivated, system: <some port>);
+        // map(CQ_MTC: cameraActivated, system: <some port>);
+        // map(CQ_MTC: TurnOff, system: <some port>);
+        // map(CQ_MTC: outputViaTouchscreen, system: <some port>);
+        // map(CQ_MTC: consoleOutput, system: <some port>);
+        // map(CQ_MTC: turnOffInhouseLightAutomatic, system: <some port>);
+        // map(CQ_MTC: scanRetina, system: <some port>);
+        // map(CQ_MTC: inputViaInternet, system: <some port>);
+        // map(CQ_MTC: turnOffPerimeterLightManual, system: <some port>);
+        // map(CQ_MTC: authenticationSuccessful, system: <some port>);
+        // map(CQ_MTC: turnOnSirenManual, system: <some port>);
+        // map(CQ_MTC: turnOnBellsAutomatic, system: <some port>);
+        // map(CQ_MTC: turnOffBellsAutomatic, system: <some port>);
+        // map(CQ_MTC: turnOnBlinkersManual, system: <some port>);
+        // map(CQ_MTC: turnOnPerimeterLightManual, system: <some port>);
+        // map(CQ_MTC: turnOffBlinkersManual, system: <some port>);
+        // map(CQ_MTC: openWindowsManual, system: <some port>);
+        // map(CQ_MTC: smokeDetectorActivated, system: <some port>);
+        // map(CQ_MTC: closeWindowsManual, system: <some port>);
+        // map(CQ_MTC: openBlindsManual, system: <some port>);
+        // map(CQ_MTC: TurnOn, system: <some port>);
+        // map(CQ_MTC: turnOnFireSprinklers, system: <some port>);
+        // map(CQ_MTC: turnOffSmartHomeSystem, system: <some port>);
+        // map(CQ_MTC: turnOffInhouseLightManual, system: <some port>);
+        // map(CQ_MTC: turnOffBellsManual, system: <some port>);
+        // map(CQ_MTC: turnOffFireSprinklers, system: <some port>);
+        // map(CQ_MTC: houseIntrusionDetected, system: <some port>);
+        // map(CQ_MTC: fireDetected, system: <some port>);
+        // map(CQ_MTC: perimeterIntrusionDetected, system: <some port>);
+        // map(CQ_MTC: readFingerprint, system: <some port>);
+        // map(CQ_MTC: turnOffBlinkersAutomatic, system: <some port>);
+        // map(CQ_MTC: turnOnInhouseLightAutomatic, system: <some port>);
+        // map(CQ_MTC: readKeypad, system: <some port>);
+        // map(CQ_MTC: turnOnSirenAutomatic, system: <some port>);
+        // map(CQ_MTC: daylightNotDetected, system: <some port>);
+        // map(CQ_MTC: turnOffSirenAutomatic, system: <some port>);
+        // map(CQ_MTC: openBlindsAutomatic, system: <some port>);
+        // map(CQ_MTC: presenceDetected, system: <some port>);
+        // map(CQ_MTC: turnOnInhouseLightManual, system: <some port>);
+        // map(CQ_MTC: openWindowsAutomatic, system: <some port>);
+        // map(CQ_MTC: turnOffSirenManual, system: <some port>);
+        // map(CQ_MTC: motionDetectorActivated, system: <some port>);
+        // map(CQ_MTC: turnOnBlinkersAutomatic, system: <some port>);
+        // map(CQ_MTC: authenticationNotSuccessful, system: <some port>);
+        // map(CQ_MTC: outputViaInternet, system: <some port>);
+        // map(CQ_MTC: inputViaTouchscreen, system: <some port>);
+        // map(CQ_MTC: closeBlindsAutomatic, system: <some port>);
+        // map(CQ_MTC: closeBlindsManual, system: <some port>);
+        // map(CQ_MTC: turnOnPerimeterLightAutomatic, system: <some port>);
+        // map(CQ_MTC: daylightDetected, system: <some port>);
+        // map(CQ_MTC: closeWindowsAutomatic, system: <some port>);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_start_test_case(): function is not implemented");
+    }
+    /**
+    * @desc
+    *    This function tears down the test configuration
+    *    and unmaps all mtc to system component ports
+    */
+    function  f_cq_end_test_case() runs on CQ_MTC
+    {
+        //Specify here unmap operations between MTC and abstract test
+        // system interface or update and uncomment generated code below
+        // unmap(CQ_MTC: turnOffPerimeterLightAutomatic, system: <some port>);
+        // unmap(CQ_MTC: turnOnBellsManual, system: <some port>);
+        // unmap(CQ_MTC: callFireDepartment, system: <some port>);
+        // unmap(CQ_MTC: glassBreakSensorActivated, system: <some port>);
+        // unmap(CQ_MTC: cameraActivated, system: <some port>);
+        // unmap(CQ_MTC: TurnOff, system: <some port>);
+        // unmap(CQ_MTC: outputViaTouchscreen, system: <some port>);
+        // unmap(CQ_MTC: consoleOutput, system: <some port>);
+        // unmap(CQ_MTC: turnOffInhouseLightAutomatic, system: <some port>);
+        // unmap(CQ_MTC: scanRetina, system: <some port>);
+        // unmap(CQ_MTC: inputViaInternet, system: <some port>);
+        // unmap(CQ_MTC: turnOffPerimeterLightManual, system: <some port>);
+        // unmap(CQ_MTC: authenticationSuccessful, system: <some port>);
+        // unmap(CQ_MTC: turnOnSirenManual, system: <some port>);
+        // unmap(CQ_MTC: turnOnBellsAutomatic, system: <some port>);
+        // unmap(CQ_MTC: turnOffBellsAutomatic, system: <some port>);
+        // unmap(CQ_MTC: turnOnBlinkersManual, system: <some port>);
+        // unmap(CQ_MTC: turnOnPerimeterLightManual, system: <some port>);
+        // unmap(CQ_MTC: turnOffBlinkersManual, system: <some port>);
+        // unmap(CQ_MTC: openWindowsManual, system: <some port>);
+        // unmap(CQ_MTC: smokeDetectorActivated, system: <some port>);
+        // unmap(CQ_MTC: closeWindowsManual, system: <some port>);
+        // unmap(CQ_MTC: openBlindsManual, system: <some port>);
+        // unmap(CQ_MTC: TurnOn, system: <some port>);
+        // unmap(CQ_MTC: turnOnFireSprinklers, system: <some port>);
+        // unmap(CQ_MTC: turnOffSmartHomeSystem, system: <some port>);
+        // unmap(CQ_MTC: turnOffInhouseLightManual, system: <some port>);
+        // unmap(CQ_MTC: turnOffBellsManual, system: <some port>);
+        // unmap(CQ_MTC: turnOffFireSprinklers, system: <some port>);
+        // unmap(CQ_MTC: houseIntrusionDetected, system: <some port>);
+        // unmap(CQ_MTC: fireDetected, system: <some port>);
+        // unmap(CQ_MTC: perimeterIntrusionDetected, system: <some port>);
+        // unmap(CQ_MTC: readFingerprint, system: <some port>);
+        // unmap(CQ_MTC: turnOffBlinkersAutomatic, system: <some port>);
+        // unmap(CQ_MTC: turnOnInhouseLightAutomatic, system: <some port>);
+        // unmap(CQ_MTC: readKeypad, system: <some port>);
+        // unmap(CQ_MTC: turnOnSirenAutomatic, system: <some port>);
+        // unmap(CQ_MTC: daylightNotDetected, system: <some port>);
+        // unmap(CQ_MTC: turnOffSirenAutomatic, system: <some port>);
+        // unmap(CQ_MTC: openBlindsAutomatic, system: <some port>);
+        // unmap(CQ_MTC: presenceDetected, system: <some port>);
+        // unmap(CQ_MTC: turnOnInhouseLightManual, system: <some port>);
+        // unmap(CQ_MTC: openWindowsAutomatic, system: <some port>);
+        // unmap(CQ_MTC: turnOffSirenManual, system: <some port>);
+        // unmap(CQ_MTC: motionDetectorActivated, system: <some port>);
+        // unmap(CQ_MTC: turnOnBlinkersAutomatic, system: <some port>);
+        // unmap(CQ_MTC: authenticationNotSuccessful, system: <some port>);
+        // unmap(CQ_MTC: outputViaInternet, system: <some port>);
+        // unmap(CQ_MTC: inputViaTouchscreen, system: <some port>);
+        // unmap(CQ_MTC: closeBlindsAutomatic, system: <some port>);
+        // unmap(CQ_MTC: closeBlindsManual, system: <some port>);
+        // unmap(CQ_MTC: turnOnPerimeterLightAutomatic, system: <some port>);
+        // unmap(CQ_MTC: daylightDetected, system: <some port>);
+        // unmap(CQ_MTC: closeWindowsAutomatic, system: <some port>);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_end_test_case(): function is not implemented");
+    }
+    
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffPerimeterLightAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffPerimeterLightAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffPerimeterLightAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffPerimeterLightAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffPerimeterLightAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnBellsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnBellsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnBellsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnBellsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnBellsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_callFireDepartment(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the callFireDepartment model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // callFireDepartment.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_callFireDepartment: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_callFireDepartment: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_glassBreakSensorActivated(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the glassBreakSensorActivated model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // glassBreakSensorActivated.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_glassBreakSensorActivated: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_glassBreakSensorActivated: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_cameraActivated(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the cameraActivated model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // cameraActivated.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_cameraActivated: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_cameraActivated: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_TurnOff(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the TurnOff model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // TurnOff.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_TurnOff: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_TurnOff: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_outputViaTouchscreen(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the outputViaTouchscreen model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // outputViaTouchscreen.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_outputViaTouchscreen: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_outputViaTouchscreen: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_consoleOutput(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the consoleOutput model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // consoleOutput.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_consoleOutput: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_consoleOutput: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffInhouseLightAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffInhouseLightAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffInhouseLightAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffInhouseLightAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffInhouseLightAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_scanRetina(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the scanRetina model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // scanRetina.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_scanRetina: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_scanRetina: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_inputViaInternet(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the inputViaInternet model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // inputViaInternet.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_inputViaInternet: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_inputViaInternet: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffPerimeterLightManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffPerimeterLightManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffPerimeterLightManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffPerimeterLightManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffPerimeterLightManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_authenticationSuccessful(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the authenticationSuccessful model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // authenticationSuccessful.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_authenticationSuccessful: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_authenticationSuccessful: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnSirenManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnSirenManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnSirenManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnSirenManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnSirenManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnBellsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnBellsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnBellsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnBellsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnBellsAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffBellsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffBellsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffBellsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffBellsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffBellsAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnBlinkersManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnBlinkersManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnBlinkersManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnBlinkersManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnBlinkersManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnPerimeterLightManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnPerimeterLightManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnPerimeterLightManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnPerimeterLightManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnPerimeterLightManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffBlinkersManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffBlinkersManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffBlinkersManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffBlinkersManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffBlinkersManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_openWindowsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the openWindowsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // openWindowsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_openWindowsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_openWindowsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_smokeDetectorActivated(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the smokeDetectorActivated model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // smokeDetectorActivated.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_smokeDetectorActivated: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_smokeDetectorActivated: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_closeWindowsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the closeWindowsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // closeWindowsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_closeWindowsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_closeWindowsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_openBlindsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the openBlindsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // openBlindsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_openBlindsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_openBlindsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_TurnOn(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the TurnOn model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // TurnOn.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_TurnOn: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_TurnOn: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnFireSprinklers(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnFireSprinklers model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnFireSprinklers.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnFireSprinklers: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnFireSprinklers: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function performs manipulation needed and sends a p_MyMessage
+    *    via the abstract test interface to the SUT.
+    * @param
+    *    p_MyMessage Message data generated by CQ Designerto be sent to the SUT
+    */
+    function f_cq_send_MyMessage_to_turnOffSmartHomeSystem(template MyMessage p_MyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // (modify and uncomment example code as needed)
+        // 1. transform data from a MyMessage to the TTCN-3 data value used by the test harness (if needed)
+        // var <T3MyMessageType> v_T3MyMessage := f_transformMyMessageCQtoT3(p_MyMessage);
+        // 2. replace symbolic values (if any) with real values in TTCN-3 data value
+        // 3. send TTCN-3 data value via TTCN-3 port which corresponds toturnOffSmartHomeSystemmodel port
+        // turnOffSmartHomeSystem.send(v_T3MyMessage);
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_send_MyMessage_to_turnOffSmartHomeSystem: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffInhouseLightManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffInhouseLightManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffInhouseLightManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffInhouseLightManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffInhouseLightManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffBellsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffBellsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffBellsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffBellsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffBellsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffFireSprinklers(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffFireSprinklers model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffFireSprinklers.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffFireSprinklers: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffFireSprinklers: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_houseIntrusionDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the houseIntrusionDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // houseIntrusionDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_houseIntrusionDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_houseIntrusionDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_fireDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the fireDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // fireDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_fireDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_fireDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_perimeterIntrusionDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the perimeterIntrusionDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // perimeterIntrusionDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_perimeterIntrusionDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_perimeterIntrusionDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_readFingerprint(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the readFingerprint model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // readFingerprint.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_readFingerprint: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_readFingerprint: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffBlinkersAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffBlinkersAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffBlinkersAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffBlinkersAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffBlinkersAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnInhouseLightAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnInhouseLightAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnInhouseLightAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnInhouseLightAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnInhouseLightAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_readKeypad(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the readKeypad model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // readKeypad.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_readKeypad: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_readKeypad: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnSirenAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnSirenAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnSirenAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnSirenAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnSirenAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_daylightNotDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the daylightNotDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // daylightNotDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_daylightNotDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_daylightNotDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffSirenAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffSirenAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffSirenAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffSirenAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffSirenAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_openBlindsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the openBlindsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // openBlindsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_openBlindsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_openBlindsAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_presenceDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the presenceDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // presenceDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_presenceDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_presenceDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnInhouseLightManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnInhouseLightManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnInhouseLightManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnInhouseLightManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnInhouseLightManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_openWindowsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the openWindowsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // openWindowsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_openWindowsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_openWindowsAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOffSirenManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOffSirenManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOffSirenManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOffSirenManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOffSirenManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_motionDetectorActivated(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the motionDetectorActivated model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // motionDetectorActivated.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_motionDetectorActivated: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_motionDetectorActivated: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnBlinkersAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnBlinkersAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnBlinkersAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnBlinkersAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnBlinkersAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_authenticationNotSuccessful(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the authenticationNotSuccessful model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // authenticationNotSuccessful.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_authenticationNotSuccessful: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_authenticationNotSuccessful: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_outputViaInternet(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the outputViaInternet model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // outputViaInternet.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_outputViaInternet: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_outputViaInternet: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_inputViaTouchscreen(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the inputViaTouchscreen model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // inputViaTouchscreen.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_inputViaTouchscreen: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_inputViaTouchscreen: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_closeBlindsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the closeBlindsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // closeBlindsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_closeBlindsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_closeBlindsAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_closeBlindsManual(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the closeBlindsManual model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // closeBlindsManual.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_closeBlindsManual: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_closeBlindsManual: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_turnOnPerimeterLightAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the turnOnPerimeterLightAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // turnOnPerimeterLightAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_turnOnPerimeterLightAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_turnOnPerimeterLightAutomatic: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_daylightDetected(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the daylightDetected model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // daylightDetected.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_daylightDetected: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_daylightDetected: function is not implemented)");
+    }
+
+    /**
+    * @desc
+    *    This function receives a TTCN-3 value corresponding to a MyMessage
+    *    via the abstract test system interface from the SUT, performs any
+    *    manipulation and transformation needed to convert it to a MyMessage
+    *    value, and then attempts to match it to the p_expectedMyMessage generated by CQ Designer
+    * @param
+    *    p_expectedMyMessage Expected data generated by CQ Designer
+    */
+    function f_cq_receive_MyMessage_from_closeWindowsAutomatic(template MyMessage p_expectedMyMessage)
+    runs on CQ_MTC
+    {
+        // Steps that need to be implemented here are:
+        // 1. receive and store (any) TTCN-3 data value via TTCN-3 port which corresponds to the closeWindowsAutomatic model port
+        // var <T3_MyMessageType> v_recvT3MyMessage;
+        // closeWindowsAutomatic.receive(<T3_MyMessageType>:?) -> value v_recvT3MyMessage;
+        // 2. replace real with symbolic values (if any) in the received TTCN-3 data value
+        // 3. transform data from a TTCN-3 to MyMessage data value (if needed)
+        // var MyMessage v_recvMyMessage := f_transformMyMessageT3toCQ(v_recvT3MyMessage);
+        // 4. set the verdict to fail if there is a mismatch of the transformed value and p_expectedMyMessage
+        // if ( not match( v_recvMyMessage, p_expectedMyMessage))
+        // {
+        //     log("CQ_INFO: f_cq_receive_MyMessage_from_closeWindowsAutomatic: FAIL: Mismatch between received and expected MyMessage values. Stopping test case.");
+        //     t_cq_timer.stop;
+        //     setverdict(fail);
+        //     f_cq_end_test_case();
+        //     stop;
+        // }
+        // Remove or comment the following generated code
+        log("CQ_INFO: Warning: f_cq_receive_MyMessage_from_closeWindowsAutomatic: function is not implemented)");
+    }
+}

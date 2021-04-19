@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SmartHome</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.conformiq.designer.qml.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.conformiq.qtronic.client.nature</nature>
+		<nature>com.conformiq.designer.qml.nature</nature>
+	</natures>
+</projectDescription>

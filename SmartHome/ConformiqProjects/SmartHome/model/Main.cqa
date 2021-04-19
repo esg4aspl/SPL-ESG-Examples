@@ -1,0 +1,8 @@
+
+/** Main entry point to the model i.e. the place where the system "starts". */
+void main()
+{
+    // Instantiate the 'SmartHome' and start execution of the state machine.
+    SmartHome mc = new SmartHome();
+    mc.start("SmartHome");
+}

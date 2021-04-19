@@ -1,0 +1,71 @@
+
+/** Declaration of the external interface of the system being modeled. This is
+    specific to system modeling; a similar construct does not appear usually in
+    programming languages. In this "system block", we initially declare one inbound
+    interface (in) and one outbound interface (out). The identifiers 'in' and
+    'out' are the names for the interfaces in the model. After the colon we
+    list the types of records that can possibly go through the interface in
+    question. */
+system
+{
+    Inbound TurnOn   : MyMessage;
+	Inbound consoleOutput   : MyMessage;
+	Inbound TurnOff   : MyMessage;
+	Inbound smokeDetectorActivated   : MyMessage;
+	Inbound presenceDetected: MyMessage;
+	Inbound motionDetectorActivated   : MyMessage;
+	Inbound turnOnPerimeterLightAutomatic   : MyMessage;
+	Inbound turnOnPerimeterLightManual   : MyMessage;
+	Inbound turnOffPerimeterLightAutomatic   : MyMessage;
+	Inbound turnOffPerimeterLightManual   : MyMessage;
+	Inbound fireDetected   : MyMessage;
+	Inbound turnOnFireSprinklers   : MyMessage;
+	Inbound turnOffFireSprinklers   : MyMessage;
+	Inbound callFireDepartment   : MyMessage;
+	Inbound turnOnBellsAutomatic   : MyMessage;
+	Inbound turnOnBellsManual   : MyMessage;
+	Inbound turnOffBellsAutomatic   : MyMessage;
+	Inbound turnOffBellsManual   : MyMessage;
+	Inbound daylightDetected   : MyMessage;
+	Inbound daylightNotDetected   : MyMessage;
+	Inbound openBlindsAutomatic: MyMessage;
+	Inbound openBlindsManual: MyMessage;
+	Inbound closeBlindsAutomatic: MyMessage;
+	Inbound closeBlindsManual: MyMessage;
+	Inbound turnOnInhouseLightAutomatic: MyMessage;
+	Inbound turnOnInhouseLightManual: MyMessage;
+	Inbound turnOffInhouseLightAutomatic: MyMessage;
+	Inbound turnOffInhouseLightManual: MyMessage;
+	Inbound openWindowsAutomatic: MyMessage;
+	Inbound openWindowsManual: MyMessage;
+	Inbound closeWindowsAutomatic: MyMessage;
+	Inbound closeWindowsManual: MyMessage;	
+	Inbound readKeypad: MyMessage;
+	Inbound readFingerprint: MyMessage;
+	Inbound scanRetina: MyMessage;
+	Inbound authenticationNotSuccessful: MyMessage;
+	Inbound authenticationSuccessful: MyMessage;
+	Inbound glassBreakSensorActivated: MyMessage;
+	Inbound houseIntrusionDetected: MyMessage;
+	Inbound turnOnSirenAutomatic: MyMessage;
+	Inbound turnOnSirenManual: MyMessage;
+	Inbound turnOffSirenAutomatic: MyMessage;
+	Inbound turnOffSirenManual: MyMessage;
+	Inbound outputViaTouchscreen: MyMessage;
+	Inbound inputViaTouchscreen: MyMessage;
+	Inbound outputViaInternet: MyMessage;
+	Inbound inputViaInternet: MyMessage;
+	Inbound cameraActivated: MyMessage;
+	Inbound perimeterIntrusionDetected: MyMessage;
+	Inbound turnOnBlinkersAutomatic: MyMessage;
+	Inbound turnOnBlinkersManual: MyMessage;
+	Inbound turnOffBlinkersAutomatic: MyMessage;
+	Inbound turnOffBlinkersManual: MyMessage;
+
+	Outbound turnOffSmartHomeSystem: MyMessage;
+}
+
+/** Declaration of a message type, which is technically presented as a "record
+    type". It is a record of pure data. This record type 'MyMessage' is empty,
+    i.e. it does not contain any actual data fields. */
+record MyMessage { }
