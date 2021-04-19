@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/3/project" propertiesVersion="1001">
+  <designConfigurations name="DC" id="70bf7eef5a14ac22894bc166e414af87">
+    <scripterConfigurations jarPath="Conformiq_Designer/CucumberScripter.jar" pluginName="CucumberScripter" enabled="true">
+      <scripterPropertyCategories name="Preferences">
+        <categoryProperties key="Output folder" value="cucumber"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/ExcelScripter.jar" pluginName="ExcelScripter" enabled="true" sequenceNumber="1">
+      <scripterPropertyCategories name="General">
+        <categoryProperties key="Output file" value="ExcelTestSuite.xls"/>
+        <categoryProperties key="Auto-resize Excel output column width" value="false"/>
+        <categoryProperties key="Template file" value="ExcelTemplate.xls"/>
+        <categoryProperties key="Generate QC compatible default template file" value="false"/>
+        <categoryProperties key="Mapping file"/>
+        <categoryProperties key="Configuration message type"/>
+        <categoryProperties key="Verdict values" value="Open, Pass, Fail, Not_Executable"/>
+        <categoryProperties key="Create separate traceability matrix for body coverage" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+        <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/PerlScripter.jar" pluginName="PerlScripter" enabled="true" sequenceNumber="2">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Generated Perl file" value="TestSuite.pl"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test harness">
+        <categoryProperties key="Test harness Perl module" value="TestHarness.pm"/>
+        <categoryProperties key="Generate stub harness module" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Customizations">
+        <categoryProperties key="Comment test case as an MSC" value="true"/>
+        <categoryProperties key="Add timestamps to test steps" value="false"/>
+        <categoryProperties key="Omit port prefixes (port_in -> in)" value="false"/>
+        <categoryProperties key="Dump Conformiq configuration" value="false"/>
+        <categoryProperties key="Highlight actions in code" value="false"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/QCALMScripter.jar" pluginName="QCALMScripter" enabled="true" sequenceNumber="3">
+      <scripterPropertyCategories name="Access Configuration">
+        <categoryProperties key="Url" value="http://127.0.0.1/qcbin/"/>
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Client ID"/>
+        <categoryProperties key="API key secret"/>
+        <categoryProperties key="Domain"/>
+        <categoryProperties key="Project"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Rendering Settings">
+        <categoryProperties key="Mapping file"/>
+        <categoryProperties key="Custom field mapping file" value="CustomFieldMappings.xls"/>
+        <categoryProperties key="Export as ASCIIMSC" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+        <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Upload Settings">
+        <categoryProperties key="Test case status" value="Design"/>
+        <categoryProperties key="Test plan target folder"/>
+        <categoryProperties key="Create test plan target folder"/>
+        <categoryProperties key="Use trash can folder for incompatible tests" value="false"/>
+        <categoryProperties key="Add tests to test lab" value="false"/>
+        <categoryProperties key="Test lab target folder"/>
+        <categoryProperties key="Create test lab target folder"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Advanced Settings">
+        <categoryProperties key="Always connect through the COM interface" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Case Selection">
+        <categoryProperties key="Report requirement coverage only from test case body" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Troubleshooting">
+        <categoryProperties key="Log file"/>
+        <categoryProperties key="Show debug messages on Progress Panel" value="false"/>
+        <categoryProperties key="Log scripter revision" value="true"/>
+        <categoryProperties key="Log entry pattern layout"/>
+        <categoryProperties key="Debug level" value="INFO"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/RallyScripter.jar" pluginName="RallyScripter" enabled="true" sequenceNumber="4">
+      <scripterPropertyCategories name="Rally Service">
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Rally host name" value="rally1.rallydev.com"/>
+        <categoryProperties key="Workspace"/>
+        <categoryProperties key="Project"/>
+        <categoryProperties key="Test folder"/>
+        <categoryProperties key="Create test folder"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Additional Test Properties">
+        <categoryProperties key="Tags"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Proxy Settings">
+        <categoryProperties key="Connect through proxy" value="false"/>
+        <categoryProperties key="HTTP Proxy Host"/>
+        <categoryProperties key="HTTP Proxy Port"/>
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Computer Name"/>
+        <categoryProperties key="Windows Domain"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Step Mappings">
+        <categoryProperties key="Mapping file"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+        <categoryProperties key="Custom field mappings" value="CustomFields.xls"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+        <categoryProperties key="External circumstance prefix" value="External circumstance: "/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Troubleshooting">
+        <categoryProperties key="Log file"/>
+        <categoryProperties key="Redirect System.out to log" value="true"/>
+        <categoryProperties key="Show debug messages on Progress Panel" value="false"/>
+        <categoryProperties key="Log scripter revision" value="true"/>
+        <categoryProperties key="Log entry pattern layout"/>
+        <categoryProperties key="Debug level" value="INFO"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/TCLScripter.jar" pluginName="TCLScripter" enabled="true" sequenceNumber="5">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Generated TCL file" value="TestSuite.tcl"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test case template">
+        <categoryProperties key="Template TCL file" value="Template.tcl"/>
+        <categoryProperties key="Generate stub template" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test harness">
+        <categoryProperties key="Test harness TCL file" value="TestHarness.tcl"/>
+        <categoryProperties key="Test harness include method (source|embed)" value="source"/>
+        <categoryProperties key="Generate stub library" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Customizations">
+        <categoryProperties key="Comment test case as an MSC" value="true"/>
+        <categoryProperties key="Dump requirement traceability information" value="true"/>
+        <categoryProperties key="Dump structural feature traceability information" value="false"/>
+        <categoryProperties key="Dump test dependency information" value="true"/>
+        <categoryProperties key="Array member separator" value=","/>
+        <categoryProperties key="Add timestamps to test steps" value="false"/>
+        <categoryProperties key="Omit port prefixes (port_in -> in)" value="false"/>
+        <categoryProperties key="Dump Conformiq configuration" value="false"/>
+        <categoryProperties key="Highlight actions in code" value="false"/>
+        <categoryProperties key="RSD-RT Model" value="false"/>
+        <categoryProperties key="Add indexes to variable names" value="true"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/TTCNScripter.jar" pluginName="TTCNScripter" enabled="true" sequenceNumber="6">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Test suite file" value="CQ_TestSuite.ttcn3"/>
+        <categoryProperties key="Import from or generate to data types file" value="CQ_Types.ttcn3"/>
+        <categoryProperties key="Generate protocol data types" value="true"/>
+        <categoryProperties key="Import from or generate to test system file" value="CQ_TestSystem.ttcn3"/>
+        <categoryProperties key="Generate test system information (component and port types)" value="true"/>
+        <categoryProperties key="Import from or generate to harness template file" value="CQ_TestHarnessTemplate.ttcn3"/>
+        <categoryProperties key="Generate test harness function stubs" value="true"/>
+        <categoryProperties key="Import from or generate to default altstep file" value="CQ_Defaults.ttcn3"/>
+        <categoryProperties key="Generate default altstep" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Customization">
+        <categoryProperties key="Extra import statements"/>
+        <categoryProperties key="MTC type name" value="CQ_MTC"/>
+        <categoryProperties key="System component type name" value="CQ_TestHarnessSystem"/>
+        <categoryProperties key="Start test case hook function name" value="start_test_case()"/>
+        <categoryProperties key="End test case hook function name" value="end_test_case()"/>
+        <categoryProperties key="Default altstep name" value="a_cq_default()"/>
+        <categoryProperties key="Default variable name" value="v_cq_default"/>
+        <categoryProperties key="Component timer name" value="t_cq_timer"/>
+        <categoryProperties key="Generated functions prefix" value="f_cq_"/>
+        <categoryProperties key="Generate fractions for float numbers" value="false"/>
+        <categoryProperties key="Generate textual MSC in test case documentation" value="false"/>
+        <categoryProperties key="Show external ports in textual MSC" value="false"/>
+        <categoryProperties key="List targeted goals in test case documentation" value="false"/>
+        <categoryProperties key="Show all messages in TTCN-3 comments" value="true"/>
+        <categoryProperties key="Reproducible" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Timing">
+        <categoryProperties key="Maximum SUT response time" value="10.0"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Logging">
+        <categoryProperties key="Log function name" value="log"/>
+        <categoryProperties key="Log CQ debug messages" value="true"/>
+        <categoryProperties key="Log CQ info messages" value="true"/>
+        <categoryProperties key="Log targeted Requirements" value="true"/>
+        <categoryProperties key="Log targeted Usecases" value="true"/>
+        <categoryProperties key="Log targeted States and Transitions" value="false"/>
+        <categoryProperties key="Log targeted Conditional and Atomic Branches" value="false"/>
+        <categoryProperties key="Log targeted Boundary Value Analysis" value="false"/>
+        <categoryProperties key="Log targeted Methods" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Extensions">
+        <categoryProperties key="Use port type extension"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/XMLScripter2.jar" pluginName="XMLScripter2" enabled="true" sequenceNumber="7">
+      <scripterPropertyCategories name="Main">
+        <categoryProperties key="Generated XML file" value="xml/TestSuite.xml"/>
+        <categoryProperties key="Write output format XSD" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Postprocessing">
+        <categoryProperties key="Use XSLT" value="false"/>
+        <categoryProperties key="XSLT stylesheet"/>
+        <categoryProperties key="Post process command"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Customizations">
+        <categoryProperties key="Dump Conformiq Designer configuration" value="true"/>
+        <categoryProperties key="Highlight actions in code" value="true"/>
+        <categoryProperties key="Dump debug information" value="false"/>
+        <categoryProperties key="Reproducible" value="false"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+  </designConfigurations>
+  <projectProperties key="ApplyDefaultDataSelectionHeuristicsInAddition" value="false"/>
+  <projectProperties key="EnableClockPerturbation" value="false"/>
+  <projectProperties key="EnablePerturbation" value="false"/>
+  <projectProperties key="IntelligentTestCaseNaming" value="true"/>
+  <projectProperties key="LookAheadDepth" value="0"/>
+  <projectProperties key="LoopBound"/>
+  <projectProperties key="MaxCommDelay" value="0"/>
+  <projectProperties key="NumberOfTestVariants" value="0"/>
+  <projectProperties key="OnlyFinalizedRuns" value="false"/>
+  <projectProperties key="PerturbationSeed" value="1009"/>
+  <projectProperties key="ProfilingEnabled" value="false"/>
+  <projectProperties key="RequireConversion" value="false"/>
+  <projectProperties key="TestCaseIndexOffset" value="0"/>
+  <projectProperties key="TestCaseNamePrefix" value="Test Case "/>
+  <projectProperties key="TestCaseOrdering" value="CHRONOLOGICAL_SHORTEST_TEST_FIRST"/>
+  <projectProperties key="TestGenTimeLimit" value="10"/>
+  <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
+  <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
+</com.conformiq:ConformiqProject>

@@ -1,0 +1,3797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?conformiq-designer-gen 1603308339117?><metadata creator_asset_version="6">
+  <mapping key="annotations:method:OnlineShopping.run()">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">conformiq.NoCoverage</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="arrayinfo:AnyRecord[]">
+    <qmlstring type="String">AnyRecord</qmlstring>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">implicit-consumption.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.*">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Global Scope</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.AnyRecord">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">AnyRecord</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Barrier">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Barrier</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CQDatabase">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CQDatabase</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CQDatabaseException">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CQDatabaseException</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CQDatabaseQueryResult">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CQDatabaseQueryResult</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CQPort">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CQPort</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CQTimeoutException">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CQTimeoutException</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.CharacterClasses">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CharacterClasses</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Comparable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Comparable</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Exception">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Exception</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Lock">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Lock</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.MyMessage">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">MyMessage</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Object">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.OnlineShopping">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Runnable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Runnable</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Semaphore">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Semaphore</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.StateMachine">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">StateMachine</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.String">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">String</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Thread">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Thread</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:method.Throwable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Throwable</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; CartContent -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; CartContent -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start -&gt; Catalog -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start -&gt; Catalog -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start -&gt; Catalog -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Catalog -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Catalog -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Catalog -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation -&gt; Order -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation -&gt; Order -&gt; ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card -&gt; Validation -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Credit Card -&gt; OnlineShopping.Validation</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card -&gt; Validation -&gt; final state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Credit Card -&gt; OnlineShopping.Validation</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.final state</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">initial state -&gt; Start -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.initial state -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; CartContent -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; CartContent -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; CartContent -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; CartContent -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; Order -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; Order -&gt; ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; Order -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; Order -&gt; ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod -&gt; Credit Card -&gt; Validation</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ChooseMethod -&gt; OnlineShopping.Credit Card</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Credit Card -&gt; OnlineShopping.Validation</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; ProductDetails -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; ProductDetails -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; ProductDetails -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; ProductDetails -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Order -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Order -&gt; ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; ProductDetails -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; ProductDetails -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; ProductDetails -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; ProductDetails -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order -&gt; Start -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw:OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">2-transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">2-transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order -&gt; ChooseMethod -&gt; Credit Card</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ChooseMethod -&gt; OnlineShopping.Credit Card</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.first</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">2-transition.second</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:method.OnlineShopping.6.OnlineShopping()">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method.OnlineShopping</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">OnlineShopping()</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cqa</qmlstring>
+            <qmlstring type="String">9</qmlstring>
+            <qmlstring type="String">OnlineShopping.cqa</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:method.main()">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">method</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">method.*</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">main()</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">Main.cqa</qmlstring>
+            <qmlstring type="String">3-8</qmlstring>
+            <qmlstring type="String">Main.cqa</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">final state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.final state</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">final</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">initial state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.initial state</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">initial</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Credit Card</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">state.type</qmlstring>
+        <qmlstring type="String">basic</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.6.OnlineShopping().4.0.0">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.cqa:9 statement 'super ( ) ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cqa</qmlstring>
+            <qmlstring type="String">9</qmlstring>
+            <qmlstring type="String">OnlineShopping.cqa</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'super ( ) ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw.action.0.1661596830">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.CartContent -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'showCartContent ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw.action.0.561530660">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.Start -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'listProducts ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw.action.0.561530660">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog:1 statement 'listProducts ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'listProducts ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw.action.0.1661596830">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'showCartContent ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw.action.0.1661596830">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.Catalog -&gt; OnlineShopping.CartContent:1 statement 'showCartContent ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'showCartContent ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw.action.0.513899984">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.CartContent -&gt; OnlineShopping.Order:1 statement 'showSummary ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'showSummary ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw.action.0.892269159">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails:1 statement 'showProductDetails ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String">1</qmlstring>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'showProductDetails ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.main().5.0.3141033003">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In Main.cqa:7 statement 'mc . start ( "OnlineShopping" ) ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">Main.cqa</qmlstring>
+            <qmlstring type="String">7</qmlstring>
+            <qmlstring type="String">Main.cqa</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'mc . start ( "OnlineShopping" ) ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:statement.main().5.mc">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">statement</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">In Main.cqa:6 statement 'OnlineShopping mc = new OnlineShopping ( ) ;'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">Main.cqa</qmlstring>
+            <qmlstring type="String">6</qmlstring>
+            <qmlstring type="String">Main.cqa</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">statement.code</qmlstring>
+        <qmlstring type="String">'OnlineShopping mc = new OnlineShopping ( ) ;'</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Start -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX64xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Start -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Catalog</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Catalog</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Credit Card -&gt; Validation</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Credit Card -&gt; OnlineShopping.Validation</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX65xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">initial state -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX65xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.initial state -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0RPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX66RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Validation -&gt; final state</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyX66RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Validation -&gt; OnlineShopping.final state</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; CartContent</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.CartContent</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0hPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0hPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT0xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">CartContent -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT0xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.CartContent -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyX64BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ChooseMethod -&gt; Credit Card</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ChooseMethod -&gt; OnlineShopping.Credit Card</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT1xPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT1xPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2BPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">ProductDetails -&gt; Order</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2BPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.ProductDetails -&gt; OnlineShopping.Order</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Catalog -&gt; ProductDetails</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT2RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Catalog -&gt; OnlineShopping.ProductDetails</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2xPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3BPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order -&gt; Start</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT3RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.Start</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT2hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5RPTEeudiumawDTAdw">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">transition</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">transition.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Order -&gt; ChooseMethod</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">OnlineShopping.cm#_AyXT5RPTEeudiumawDTAdw</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">OnlineShopping.Order -&gt; OnlineShopping.ChooseMethod</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.source</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT3hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.target</qmlstring>
+        <qmlstring type="String">state.OnlineShopping.cm#_QvItUPMjEeS6mNxtIz5_4Q._AyXT5hPTEeudiumawDTAdw</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">transition.internal</qmlstring>
+        <qmlstring type="String">false</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Barrier">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__x__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CQDatabase">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CQDatabaseException">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CQDatabaseQueryResult">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CQPort">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__input__</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__output__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CQTimeoutException">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:CharacterClasses">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Comparable">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Exception">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Lock">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__x__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Object">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:OnlineShopping">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__input_port__</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__output_port__</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__run__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Runnable">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Semaphore">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__x__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:StateMachine">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:String">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Thread">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String"/>
+        <qmlstring type="String">__runnable__</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="classinfo:Throwable">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:AddProductToCart">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:CancelPayment">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:Invalid">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:OpenProductCatalog">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ProceedPayment">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ProceedToCheckout">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ProductDetailsFor">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:RemoveProduct">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ReturnToCatalog">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ReturnToSearchResults">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:SelectCreditCard">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:SelectPaymentMethod">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:ToCart">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:Valid">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:listProducts">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:processOrderAndConfirm">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:showCartContent">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:showProductDetails">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:showSummary">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:validate">
+    <qmlarray type="[]">
+      <qmlstring type="String">MyMessage</qmlstring>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Barrier">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CQDatabase">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CQDatabaseException">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Exception</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CQDatabaseQueryResult">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CQPort">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CQTimeoutException">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Exception</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:CharacterClasses">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Comparable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Exception">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Throwable</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Lock">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Object">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:OnlineShopping">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">StateMachine</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Runnable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Semaphore">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:StateMachine">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">CQPort</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:String">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Thread">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:class:Throwable">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">Object</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:record:AnyRecord">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="type-hierarchy:record:MyMessage">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">base</qmlstring>
+        <qmlstring type="String">AnyRecord</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">members</qmlstring>
+        <qmlarray type="[]">
+          </qmlarray>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="unreachable-checkpoints">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <qmlrecordtype name="AnyRecord">
+    </qmlrecordtype>
+  <qmlrecordtype name="MyMessage">
+    </qmlrecordtype>
+  <qmlstringtype name="String"/>
+  <qmlbooleantype name="boolean"/>
+  <qmlbooleantype name="boolean?"/>
+  <qmlnumbertype name="byte"/>
+  <qmlnumbertype name="char"/>
+  <qmlnumbertype name="char?"/>
+  <qmlnumbertype name="double"/>
+  <qmlnumbertype name="double?"/>
+  <qmlnumbertype name="float"/>
+  <qmlnumbertype name="float?"/>
+  <qmlnumbertype name="int"/>
+  <qmlnumbertype name="int?"/>
+  <qmlnumbertype name="long"/>
+  <qmlnumbertype name="long?"/>
+  <qmlnumbertype name="short"/>
+  <qmlnumbertype name="short?"/>
+</metadata>
